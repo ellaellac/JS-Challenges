@@ -2,12 +2,12 @@
 //if it is a positive number and 
 //false if it is a negative number.
 
-const numChecker = (num1) => {
-    if (num1 > 0){
+const numChecker = (num) => {
+    if (num > 0){
         return true
-    } else if (num1 == 0) {
+    } else if (num == 0) {
         return "you entered zero"
-    }else if (num1 < 0) {
+    }else if (num < 0) {
         return false
     }
 
@@ -25,4 +25,19 @@ const convertDaystoAge = (days) => {
 
 convertDaystoAge(3650);
 convertDaystoAge(6570);
+
+//3.Write a function that takes three numbers and 
+// returns the largest of the three numbers.
+
+const getLargestNumber = (num1, num2, num3) => {
+    if (num1 > num2 && num1 > num3 ) {
+        return num1
+    } else if (num2 > num1 && num2 > num3 ) {
+        return num2
+    } else return num3
+}
+
+console.log (getLargestNumber(2,1,4));
+console.log (getLargestNumber(6,2,3));
+
 
