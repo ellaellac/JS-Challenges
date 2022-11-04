@@ -40,4 +40,27 @@ const getLargestNumber = (num1, num2, num3) => {
 console.log (getLargestNumber(2,1,4));
 console.log (getLargestNumber(6,2,3));
 
+//4. Write a function that takes an array of names and 
+//returns the last name from the array of names.
+
+const first_name = ["Charlie" , "Rob", "Andy"];
+const last_name = ["Ash", "Stu"];
+
+const getLastName = (input) => {
+    if (input == first_name) {
+        return (first_name[2])
+    }
+    else if (input == last_name) {
+        return (last_name[1])
+    }
+}
+console.log(getLastName (first_name));
+console.log(getLastName (last_name));
+
+
+
+
+
+
+
 
