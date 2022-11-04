@@ -16,4 +16,13 @@ const numChecker = (num1) => {
 console.log (numChecker (-1));
 console.log (numChecker (10));
 
-//
+// 2. Write a function that takes a number of days 
+// and converts it into an age.
+
+const convertDaystoAge = (days) => {
+    console.log(days/365);
+}
+
+convertDaystoAge(3650);
+convertDaystoAge(6570);
+
